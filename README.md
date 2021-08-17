@@ -1,7 +1,9 @@
 # hexo-filter-inline-svg
+
 [![npm package](https://img.shields.io/npm/v/hexo-filter-inline-svg)](https://npmjs.org/package/hexo-filter-inline-svg)
 [![license](https://img.shields.io/npm/l/hexo-filter-inline-svg)](./LICENSE "LICENSE")
 [![GitHub issues](https://img.shields.io/github/issues/widergao/hexo-filter-inline-svg)](https://github.com/WiderGao/hexo-filter-inline-svg/issues)
+
 A Hexo plugin that inline your svg in the img tag into HTML file.
 
 ## Installation
