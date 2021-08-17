@@ -5,11 +5,9 @@ const cheerio = require('cheerio');
 
 function getSvgData(src) {
   let raw = null;
-  if (!path.isAbsolute(path)) {
-    src = path.join(hexo.source_dir, src);
-    if (!fs.existsSync(src)) {
-      src = path.join(hexo.theme_dir, 'source', src);
-    }
+  src = path.join(hexo.source_dir, src);
+  if (!fs.existsSync(src)) {
+    src = path.join(hexo.theme_dir, 'source', src);
   }
   raw = fs.readFileSync(src);
   return raw;
