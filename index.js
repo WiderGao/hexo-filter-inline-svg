@@ -33,7 +33,7 @@ function filter(str = "") {
       svgEl.attr(imgEl[0].attribs);
       // remove some unnecessary attributes
       svgEl.removeAttr('src').removeAttr('alt').removeAttr('title');
-      newStr = newStr.replace(match[0], $.html());
+      newStr = newStr.replace(match[0], $('body').html());
     }
   }
   return newStr;
