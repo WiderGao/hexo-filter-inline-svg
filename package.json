@@ -1,11 +1,11 @@
 {
   "name": "hexo-filter-inline-svg",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A Hexo plugin that inline your svg in the img tag into HTML file.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WiderGao/hexo-filter-inline-svg.git"
+    "url": "git+https://github.com/izmttk/hexo-filter-inline-svg.git"
   },
   "keywords": [
     "hexo",
@@ -15,9 +15,9 @@
   "author": "WiderG",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WiderGao/hexo-filter-inline-svg/issues"
+    "url": "https://github.com/izmttk/hexo-filter-inline-svg/issues"
   },
-  "homepage": "https://github.com/WiderGao/hexo-filter-inline-svg#readme",
+  "homepage": "https://github.com/izmttk/hexo-filter-inline-svg#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
     "hexo-fs": "^3.1.0",
